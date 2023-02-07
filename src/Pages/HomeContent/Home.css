@@ -1,0 +1,1794 @@
+.comingSoon {
+    text-transform: uppercase;
+    color: red;
+    font-family: semibold;
+    font-size: 50px !important;
+}
+
+.homeLogo img {
+    max-width: 200px;
+}
+
+.destopHideNavigation {
+    display: none;
+}
+
+.homeHeader {
+    height: 100vh;
+    background: var(--dark);
+}
+
+.homeHeader .container,
+.homeHeader .row {
+    height: 100%;
+}
+
+.homeHeaderBg {
+    background-size: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    border-radius: 20px;
+    padding: 3rem 0;
+}
+
+.homeHeaderSliderBg {
+    background-color: var(--dark);
+    height: 90%;
+    padding: 2rem 0rem 2rem 0rem;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+}
+
+.homeHeaderSliderBgVideo {
+    position: absolute;
+    top: 0;
+}
+
+.homeNavigation ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 2rem 0;
+}
+
+.homeNavigation ul li {
+    font-size: 14px;
+}
+
+.homeNavigation ul li a {
+    color: var(--text);
+}
+
+.homeHeaderContent h1 {
+    font-size: 50px;
+    font-family: boldfont;
+    text-transform: capitalize;
+    color: var(--secondary);
+}
+
+
+
+.homeHeaderContent h1 span {
+    color: var(--dark);
+    font-family: boldfont;
+}
+
+
+
+.homeHeaderContent h1 i {
+    font-family: italicfont;
+}
+
+.homeHeaderContent h4 {
+    font-size: 40px;
+    margin: 2rem 0 2.5rem 0;
+    color: var(--white);
+}
+
+
+.homeHeaderContent {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.homeHeaderContent p {
+    margin: 2rem 0 3rem 0;
+}
+
+.homeHeaderBtn p {
+    margin: 0;
+}
+
+.homeHeaderBtn {
+    display: flex;
+}
+
+.homeHeaderSliderContent {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.tagLine {
+    position: relative;
+    z-index: 1;
+}
+
+.tagLine h2 {
+    padding: 2rem 0;
+    font-size: 36px;
+    font-family: semibold;
+    color: var(--secondary);
+    text-align: center;
+}
+
+.headerAnimationBox {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.homeAdsBg {
+    background-color: var(--bg-light);
+    border-radius: 20px;
+    height: 450px;
+    margin-top: 15rem;
+    position: relative;
+}
+
+.homeAdsImg {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    bottom: 0;
+    left: 5%;
+}
+
+.homeAdsImg img {
+    max-width: 500px;
+}
+
+.homeAdsContent {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 3rem;
+}
+
+.homeAdsContent h4 {
+    font-size: 40px;
+    font-family: boldfont;
+    text-transform: capitalize;
+    background: linear-gradient(268.8deg, var(--dark) 0.37%, var(--secondary) 99.73%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+}
+
+.homeAdsContent p {
+    font-size: 22px;
+}
+
+.homeAdsBtn {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.visionMissionBg {
+    padding: 5rem 0 0 0;
+}
+
+.visionMission h6 {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: semibold;
+    font-size: 26px;
+    background: linear-gradient(268.8deg, var(--dark) 0.37%, var(--secondary) 99.73%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 2rem;
+}
+
+.visionMission p {
+    font-size: 34px;
+    font-family: mediumfont;
+    background-clip: text;
+}
+
+.title h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: mediumfont;
+    background: linear-gradient(268.8deg, var(--dark) 0.37%, var(--secondary) 99.73%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 5rem 0 3rem 0;
+}
+
+.homeVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.homeVideo iframe {
+    width: 950px;
+    height: 540px;
+    border-radius: 20px;
+}
+
+.indianBg {
+    width: 100%;
+    height: 430px;
+    background-color: var(--dark);
+    margin-top: 3rem;
+    position: relative;
+}
+
+.indianImg {
+    position: absolute;
+    right: 3rem;
+    bottom: 0;
+}
+
+.indianImg img {
+    max-width: 500px;
+}
+
+.indianText {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 430px;
+}
+
+.indianText h3 {
+    font-size: 60px;
+    font-family: extrabold;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.indianText h2 {
+    letter-spacing: 40px;
+    text-transform: uppercase;
+    font-size: 100px;
+    font-family: extrabold;
+    background: linear-gradient(269.94deg, #00D52F 6.36%, #FFFFFF 53.65%, #FE7941 105.05%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+    text-shadow: 0px 5.49189px 16.4757px rgba(0, 0, 0, 0.25);
+}
+
+.firstBox {
+    /* background-color: red; */
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.secondBox {
+    /* background-color: blue; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.thirdBox {
+    /* background-color: blue; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.firstBox .animationImg img {
+    transform: scale(0.8);
+    filter: blur(2px);
+}
+
+.secondBox .animationImg img {
+    transform: scale(1.2);
+    filter: blur(1px);
+}
+
+.thirdBox .animationImg img {
+    transform: scale(1.8);
+}
+
+.animationBox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+
+.animationImg {
+    width: 33%;
+    height: 150px;
+    transform: translate3d(0px, -75%, 0px);
+    /* background-color: red; */
+}
+
+.animationImg img {
+    width: 80px;
+    height: 80px;
+
+}
+
+.firstBox .animationImg {
+    animation: scrollUp1 10s linear infinite;
+}
+
+.secondBox .animationImg {
+    animation: scrollUp2 27s linear infinite;
+}
+
+.thirdBox .animationImg {
+    animation: scrollUp3 25s linear infinite;
+}
+
+@keyframes scrollUp1 {
+
+    0% {
+        transform: translate3d(0px, -24%, 0px);
+    }
+
+    100% {
+        transform: translate3d(0px, -400%, 0px);
+    }
+}
+
+@keyframes scrollUp2 {
+
+    0% {
+        transform: translate3d(0px, -100%, 0px);
+    }
+
+    100% {
+        transform: translate3d(0px, -990%, 0px);
+    }
+}
+
+@keyframes scrollUp3 {
+
+    0% {
+        transform: translate3d(0px, -10%, 0px);
+    }
+
+    100% {
+        transform: translate3d(0px, -1290%, 0px);
+    }
+}
+
+
+/* =====firstBox box============= */
+.firstBox .animationImg:nth-child(even) {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.firstBox .animationImg:nth-child(odd) {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15rem;
+}
+
+
+/* =====second box============= */
+.secondBox .animationImg:nth-child(even) {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.secondBox .animationImg:nth-child(odd) {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* =====thirdBox box============= */
+.thirdBox .animationImg:nth-child(even) {
+    display: flex;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.thirdBox .animationImg:nth-child(odd) {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sliderAnimationOverlary {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    /* background-color: red; */
+}
+
+.sliderAnimationOverlary::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(180deg, var(--dark) 86%, transparent);
+}
+
+.sliderAnimationOverlary::before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(180deg, transparent, var(--dark) 86%);
+}
+
+
+
+
+.animationImg img {
+    /* border: 1px solid var(--dark); */
+    border-radius: 5px;
+}
+
+
+.headerCopyright {
+    margin-top: 1rem;
+}
+
+.headerCopyright ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.headerCopyright ul li {
+    margin-right: 2rem;
+    font-size: 14px;
+    color: var(--text);
+}
+
+.headerCopyright ul li a {
+    color: var(--text);
+}
+
+.homeHeroBg {
+    padding: 5rem 0;
+}
+
+.heroImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.visionMissionBox {
+    margin: 0 0 8rem 0;
+}
+
+.visionMissionImg img {
+    max-width: 500px;
+}
+
+.visionMissionImg.one {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.visionMission {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.faqBox .accordion {
+    --bs-accordion-border-color: none;
+}
+
+.faqBox .accordion .accordion-item {
+    background-color: transparent !important;
+    margin-bottom: 1rem;
+    border: 1px solid var(--dark) !important;
+    border-radius: 10px;
+}
+
+.faqBox .accordion .accordion-item .accordion-header .accordion-button {
+    background-color: transparent !important;
+    padding: 0 2rem !important;
+    color: var(--dark);
+    height: 70px;
+    font-family: semibold;
+}
+
+.faqBox .accordion .accordion-item .accordion-header .accordion-button span {
+    font-weight: 900;
+    color: var(--secondary);
+    margin: 0 5px;
+}
+
+.faqBox .accordion .accordion-item .accordion-header .accordion-button::after {
+    display: none !important;
+}
+
+.faqBox .accordion .accordion-item .accordion-header {
+    position: relative;
+
+}
+
+.faqBox .accordion .accordion-item .accordion-header .accordion-button .plus {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 90px;
+    height: 70px;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.faqBox .accordion .accordion-item .accordion-header .accordion-button .plus .top {
+    width: 20px;
+    height: 2px;
+    background-color: var(--primary);
+}
+
+.faqBox .accordion .accordion-item .accordion-header .accordion-button .plus .bottom {
+    width: 18px;
+    height: 2px;
+    background-color: var(--primary);
+    transform: rotate(90deg);
+    transition: 0.5s;
+    margin-top: -1px;
+}
+
+.faqBox .accordion .accordion-item .accordion-body {
+    color: var(--dark);
+    padding: 0 2.2rem 2rem 2.2rem;
+}
+
+.faqBox .accordion .accordion-item .accordion-body p {
+    color: var(--dark);
+    font-size: 16px;
+}
+
+.faqBox .accordion .accordion-item .accordion-body li {
+    color: var(--dark);
+    margin-top: 10px;
+}
+
+.faqBox .accordion .accordion-item .accordion-body h4 {
+    color: #f2fcf5;
+    font-size: 20px;
+}
+
+.faqBox .accordion .accordion-item .accordion-body span {
+    color: var(--secondary);
+    font-family: semibold;
+}
+
+.faqBox .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) .plus .bottom {
+    transform: rotate(0deg);
+    opacity: 0;
+}
+
+.faqBox .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) .plus .top {
+    background-color: var(--secondary);
+}
+
+.faqBox .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+    color: var(--secondary);
+}
+
+
+/* ====terms==== */
+.TermNavigation .navigationBg {
+    position: inherit;
+}
+
+.content p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.content a {
+    color: var(--a);
+}
+
+.content h4 {
+    font-family: boldfont;
+    font-size: 20px;
+}
+
+/* ======end===== */
+
+/* ====contact==== */
+.inputGroup{
+    margin-bottom: 1.5rem;
+}
+.inputGroup input,
+.inputGroup textarea{
+    padding: 1rem 1.5rem;
+    border: 1px solid var(--dark);
+    color: var(--dark);
+}
+.inputGroup button{
+    width: 100%;
+    padding: 1.2rem 1.5rem;
+    border-radius: 6px;
+    background: linear-gradient(268.8deg, var(--dark) 0.37%, var(--secondary) 99.73%);
+    color: var(--white);
+    outline: none;
+    border: none;
+}
+/* =======end====== */
+
+@media (min-width: 319.98px) and (max-width: 379.98px) {
+    .homeLogo img {
+        max-width: 160px;
+    }
+    .homeNavigation ul {
+        justify-content: center;
+    }
+
+    .destopHideNavigation {
+        display: block;
+    }
+
+    .homeHeaderBtn {
+        justify-content: space-between;
+        display: none;
+    }
+
+    /* .homeNavigation {
+        display: none;
+    } */
+
+    .homeHeader {
+        height: max-content;
+        padding: 1rem 0 0 0;
+    }
+
+    .homeHeaderContent {
+        padding: 0;
+        text-align: center;
+    }
+
+    .homeHeaderBg {
+        height: max-content;
+        padding: 1rem 1rem;
+    }
+
+    .homeHeaderContent h1 {
+        font-size: 28px;
+    }
+
+    .headerCopyright ul li {
+        font-size: 10px;
+    }
+
+
+
+    .homeHeroBg {
+        padding: 0 0 5rem 0;
+    }
+
+
+
+    .homeHeaderContent h4 {
+        font-size: 24px;
+    }
+
+    .indianText {
+        justify-content: start;
+        align-items: center;
+        padding: 1rem 0;
+    }
+
+    .indianText h3 {
+        font-size: 24px;
+    }
+
+    .indianText h2 {
+        letter-spacing: 20px;
+        margin-left: 20px;
+        font-size: 40px;
+    }
+
+    .indianImg {
+        right: inherit;
+        transform: translate(-50%);
+        left: 50%;
+    }
+
+    .indianImg img {
+        max-width: 230px;
+    }
+
+    .homeAdsImg {
+        position: inherit;
+    }
+
+    .homeAdsBg {
+        height: max-content;
+    }
+
+    .homeAdsImg img {
+        max-width: 230px;
+    }
+
+    .homeAdsContent {
+        height: max-content;
+        padding: 1rem 1rem;
+        text-align: center;
+    }
+
+    .homeAdsContent h4 {
+        font-size: 20px;
+    }
+
+    .homeAdsBtn {
+        display: block;
+        width: max-content;
+    }
+
+    .homeAdsBtn .homeHeaderStorBtn {
+        text-align: left;
+    }
+
+    .title h2 {
+        font-size: 30px;
+        margin: 2rem 0 2rem 0;
+    }
+
+    .homeVideo iframe {
+        width: 100%;
+        height: 170px;
+    }
+
+    .homeAdsBg {
+        margin-top: 0;
+    }
+
+    .homeHeaderSliderBg {
+        height: 550px;
+    }
+
+    .tagLine h2 {
+        font-size: 20px;
+    }
+
+    .visionMissionImg img {
+        max-width: 280px;
+    }
+
+    .comingSoon {
+        font-size: 30px !important;
+    }
+
+    .faqBox .accordion .accordion-item .accordion-body {
+        font-size: 14px;
+    }
+
+}
+
+@media (min-width: 380px) and (max-width: 424.98px) {
+    .homeLogo img {
+        max-width: 160px;
+    }
+    .homeNavigation ul {
+        justify-content: center;
+    }
+
+    .destopHideNavigation {
+        display: block;
+    }
+
+    .homeHeaderBtn {
+        justify-content: space-between;
+        display: none;
+    }
+
+    /* .homeNavigation {
+        display: none;
+    } */
+
+
+    .homeHeader {
+        height: max-content;
+        padding: 1rem 0 0 0;
+    }
+
+    .homeHeaderContent {
+        padding: 0;
+        text-align: center;
+    }
+
+    .homeHeaderBg {
+        height: max-content;
+        padding: 1rem 1rem;
+    }
+
+    .homeHeaderContent h1 {
+        font-size: 28px;
+    }
+
+    .headerCopyright ul li {
+        font-size: 10px;
+    }
+
+
+    .homeHeroBg {
+        padding: 0 0 5rem 0;
+    }
+
+
+
+    .homeHeaderContent h4 {
+        font-size: 24px;
+    }
+
+    .indianText {
+        justify-content: start;
+        align-items: center;
+        padding: 1rem 0;
+    }
+
+    .indianText h3 {
+        font-size: 30px;
+    }
+
+    .indianText h2 {
+        letter-spacing: 20px;
+        margin-left: 20px;
+        font-size: 50px;
+    }
+
+    .indianImg {
+        right: inherit;
+        transform: translate(-50%);
+        left: 50%;
+    }
+
+    .indianImg img {
+        max-width: 230px;
+    }
+
+    .homeAdsImg {
+        position: inherit;
+    }
+
+    .homeAdsBg {
+        height: max-content;
+    }
+
+    .homeAdsImg img {
+        max-width: 230px;
+    }
+
+    .homeAdsContent {
+        height: max-content;
+        padding: 1rem 1rem;
+        text-align: center;
+    }
+
+    .homeAdsContent h4 {
+        font-size: 20px;
+    }
+
+    .homeAdsBtn {
+        display: block;
+        width: max-content;
+    }
+
+    .homeAdsBtn .homeHeaderStorBtn {
+        text-align: left;
+    }
+
+    .title h2 {
+        font-size: 30px;
+        margin: 2rem 0 2rem 0;
+    }
+
+    .homeVideo iframe {
+        width: 100%;
+        height: 170px;
+    }
+
+    .homeAdsBg {
+        margin-top: 0;
+    }
+
+    .homeHeaderSliderBg {
+        height: 550px;
+    }
+
+    .tagLine h2 {
+        font-size: 20px;
+    }
+
+    .visionMissionImg img {
+        max-width: 280px;
+    }
+
+    .visionMissionImg {
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .visionMission {
+        text-align: center;
+    }
+
+    .comingSoon {
+        font-size: 30px !important;
+    }
+
+    .faqBox .accordion .accordion-item .accordion-body {
+        font-size: 14px;
+    }
+
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+    .homeLogo img {
+        max-width: 160px;
+    }
+    .homeNavigation ul {
+        justify-content: center;
+    }
+
+    .destopHideNavigation {
+        display: block;
+    }
+
+    .homeHeaderBtn {
+        justify-content: space-between;
+        display: none;
+    }
+
+    /* .homeNavigation {
+        display: none;
+    } */
+
+
+    .homeHeader {
+        height: max-content;
+        padding: 1rem 0 0 0;
+    }
+
+    .homeHeaderContent {
+        padding: 0;
+        text-align: center;
+    }
+
+    .homeHeaderBg {
+        height: max-content;
+        padding: 1rem 1rem;
+    }
+
+    .homeHeaderContent h1 {
+        font-size: 28px;
+    }
+
+    .headerCopyright ul li {
+        font-size: 10px;
+    }
+
+
+
+    .homeHeaderContent h4 {
+        font-size: 24px;
+    }
+
+    .indianText {
+        justify-content: start;
+        align-items: center;
+        padding: 1rem 0;
+    }
+
+    .indianText h3 {
+        font-size: 30px;
+    }
+
+    .indianText h2 {
+        letter-spacing: 20px;
+        margin-left: 20px;
+        font-size: 50px;
+    }
+
+    .indianImg {
+        right: inherit;
+        transform: translate(-50%);
+        left: 50%;
+    }
+
+    .indianImg img {
+        max-width: 230px;
+    }
+
+    .homeAdsImg {
+        position: inherit;
+    }
+
+    .homeAdsBg {
+        height: max-content;
+    }
+
+    .homeAdsImg img {
+        max-width: 230px;
+    }
+
+    .homeAdsContent {
+        height: max-content;
+        padding: 1rem 1rem;
+        text-align: center;
+    }
+
+    .homeAdsContent h4 {
+        font-size: 20px;
+    }
+
+    .homeAdsBtn {
+        justify-content: space-around;
+    }
+
+    .homeAdsBtn .homeHeaderStorBtn {
+        text-align: left;
+    }
+
+    .title h2 {
+        font-size: 30px;
+        margin: 2rem 0 2rem 0;
+    }
+
+    .homeVideo iframe {
+        width: 100%;
+        height: 230px;
+    }
+
+    .homeAdsBg {
+        margin-top: 0;
+    }
+
+    .homeHeaderSliderBg {
+        height: 550px;
+    }
+
+    .tagLine h2 {
+        font-size: 28px;
+    }
+
+    .visionMissionImg img {
+        max-width: 280px;
+    }
+
+    .visionMissionImg {
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .visionMission {
+        text-align: center;
+    }
+
+    .comingSoon {
+        font-size: 30px !important;
+    }
+
+    .faqBox .accordion .accordion-item .accordion-body {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768.98px) {
+    .homeLogo img {
+        max-width: 160px;
+    }
+    .homeNavigation ul {
+        justify-content: center;
+    }
+
+    .homeHeader {
+        height: max-content;
+        padding: 1rem 0;
+    }
+
+    .homeHeaderContent {
+        padding: 0;
+        margin-top: 3rem;
+        text-align: center;
+    }
+
+    .homeHeaderBg {
+        height: max-content;
+        padding: 1rem 1rem;
+    }
+
+    .homeHeaderContent h1 {
+        font-size: 34px;
+    }
+
+    .headerCopyright ul li {
+        font-size: 10px;
+    }
+
+    .homeHeaderSliderBg {
+        margin-top: 2rem;
+    }
+
+
+
+    .homeHeaderContent h4 {
+        font-size: 24px;
+    }
+
+    .indianText {
+        justify-content: start;
+        align-items: center;
+        padding: 1rem 0;
+    }
+
+    .indianText h3 {
+        font-size: 30px;
+    }
+
+    .indianText h2 {
+        letter-spacing: 20px;
+        margin-left: 20px;
+        font-size: 50px;
+    }
+
+    .indianImg {
+        right: inherit;
+        transform: translate(-50%);
+        left: 50%;
+    }
+
+    .indianImg img {
+        max-width: 230px;
+    }
+
+    .homeAdsImg {
+        position: inherit;
+    }
+
+    .homeAdsBg {
+        height: max-content;
+    }
+
+    .homeAdsImg img {
+        max-width: 230px;
+    }
+
+    .homeAdsContent {
+        height: max-content;
+        padding: 1rem 1rem;
+        text-align: center;
+    }
+
+    .homeAdsContent h4 {
+        font-size: 20px;
+    }
+
+    .homeAdsBtn {
+        justify-content: space-around;
+    }
+
+    .homeAdsBtn .homeHeaderStorBtn {
+        text-align: left;
+    }
+
+    .title h2 {
+        font-size: 30px;
+        margin: 2rem 0 2rem 0;
+    }
+
+    .homeVideo iframe {
+        width: 100%;
+        height: 230px;
+    }
+
+    .homeAdsBg {
+        margin-top: 0;
+    }
+
+    .homeHeaderSliderBg {
+        height: 550px;
+    }
+
+    .tagLine h2 {
+        font-size: 30px;
+    }
+
+    .visionMissionImg img {
+        max-width: 280px;
+    }
+
+    .visionMissionImg {
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .visionMission {
+        text-align: center;
+    }
+
+    .visionMissionImg img {
+        max-width: 280px;
+    }
+
+    .visionMissionImg {
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .visionMission {
+        text-align: center;
+    }
+
+    .visionMission p {
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 991.98px) {
+    .homeHeader {
+        height: max-content;
+        padding: 1rem 0;
+    }
+
+    .homeHeaderContent {
+        padding: 0;
+        margin-top: 3rem;
+    }
+
+    .homeHeaderBg {
+        height: max-content;
+        padding: 1rem 1rem;
+    }
+
+    .homeHeaderContent h1 {
+        font-size: 34px;
+    }
+
+    .headerCopyright ul li {
+        font-size: 10px;
+    }
+
+    .homeHeaderSliderBg {
+        margin-top: 2rem;
+    }
+
+    .homeHeaderContent h4 {
+        font-size: 24px;
+    }
+
+    .indianText {
+        justify-content: start;
+        align-items: center;
+        padding: 1rem 0;
+    }
+
+    .indianText h3 {
+        font-size: 30px;
+    }
+
+    .indianText h2 {
+        letter-spacing: 20px;
+        margin-left: 20px;
+        font-size: 50px;
+    }
+
+    .indianImg {
+        right: inherit;
+        transform: translate(-50%);
+        left: 50%;
+    }
+
+    .indianImg img {
+        max-width: 230px;
+    }
+
+    .homeAdsImg {
+        position: inherit;
+    }
+
+    .homeAdsBg {
+        height: max-content;
+    }
+
+    .homeAdsImg img {
+        max-width: 230px;
+    }
+
+    .homeAdsContent {
+        height: max-content;
+        padding: 1rem 1rem;
+        text-align: center;
+    }
+
+    .homeAdsContent h4 {
+        font-size: 20px;
+    }
+
+    .homeAdsBtn {
+        justify-content: space-around;
+    }
+
+    .homeAdsBtn .homeHeaderStorBtn {
+        text-align: left;
+    }
+
+    .title h2 {
+        font-size: 30px;
+        margin: 2rem 0 2rem 0;
+    }
+
+    .homeVideo iframe {
+        width: 100%;
+        height: 230px;
+    }
+
+    .homeAdsBg {
+        margin-top: 0;
+    }
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {
+    .homeHeader {
+        height: max-content;
+        padding: 1rem 0;
+    }
+
+    .homeHeaderContent {
+        padding: 0;
+        margin-top: 3rem;
+    }
+
+    .homeHeaderBg {
+        height: max-content;
+        padding: 1rem 1rem;
+    }
+
+    .homeHeaderContent h1 {
+        font-size: 34px;
+    }
+
+    .headerCopyright ul li {
+        font-size: 10px;
+    }
+
+    .homeHeaderSliderBg {
+        margin-top: 2rem;
+    }
+
+    .indianText {
+        justify-content: start;
+        align-items: center;
+        padding: 1rem 0;
+    }
+
+    .indianText h3 {
+        font-size: 30px;
+    }
+
+    .indianText h2 {
+        letter-spacing: 20px;
+        margin-left: 20px;
+        font-size: 50px;
+    }
+
+    .indianImg {
+        right: inherit;
+        transform: translate(-50%);
+        left: 50%;
+    }
+
+    .indianImg img {
+        max-width: 230px;
+    }
+
+    .homeAdsImg {
+        position: inherit;
+    }
+
+    .homeAdsBg {
+        height: max-content;
+    }
+
+    .homeAdsImg img {
+        max-width: 230px;
+    }
+
+    .homeAdsContent {
+        height: max-content;
+        padding: 1rem 1rem;
+        text-align: center;
+    }
+
+    .homeAdsContent h4 {
+        font-size: 20px;
+    }
+
+    .homeAdsBtn {
+        justify-content: space-around;
+    }
+
+    .homeAdsBtn .homeHeaderStorBtn {
+        text-align: left;
+    }
+
+    .title h2 {
+        font-size: 30px;
+    }
+
+    .homeVideo iframe {
+        width: 100%;
+        height: 230px;
+    }
+
+    .homeAdsBg {
+        margin-top: 0;
+    }
+
+
+}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
+
+    .homeHeaderContent h1 {
+        font-size: 40px;
+    }
+
+    .homeHeaderContent h4 {
+        font-size: 30px;
+    }
+
+    .tagLine h2 {
+        font-size: 26px;
+    }
+
+    .homeAdsBg {
+        height: 360px;
+        margin-top: 4rem;
+    }
+
+    .homeAdsImg img {
+        max-width: 374px;
+    }
+
+    .homeAdsContent h4 {
+        font-size: 24px;
+    }
+
+    .homeAdsContent p {
+        font-size: 16px;
+    }
+
+    .title h2 {
+
+        font-size: 40px;
+    }
+
+    .indianBg {
+        height: 330px;
+    }
+
+    .indianText {
+        height: 330px;
+    }
+
+    .indianText h3 {
+        font-size: 40px;
+    }
+
+    .indianText h2 {
+        font-size: 50px;
+    }
+
+    .indianImg img {
+        max-width: 350px;
+    }
+
+    .visionMissionImg img {
+        max-width: 400px;
+    }
+
+    .visionMission p {
+        font-size: 24px;
+    }
+
+    .homeAdsContent {
+        height: 360px;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1279.98px) {
+
+
+    .homeHeaderContent h1 {
+        font-size: 40px;
+    }
+
+    .homeHeaderContent h4 {
+        font-size: 30px;
+    }
+
+    .tagLine h2 {
+        font-size: 26px;
+    }
+
+    .homeAdsBg {
+        height: 360px;
+        margin-top: 4rem;
+    }
+
+    .homeAdsImg img {
+        max-width: 374px;
+    }
+
+    .homeAdsContent h4 {
+        font-size: 24px;
+    }
+
+    .homeAdsContent p {
+        font-size: 16px;
+    }
+
+    .title h2 {
+
+        font-size: 40px;
+    }
+
+    .indianBg {
+        height: 330px;
+    }
+
+    .indianText {
+        height: 330px;
+    }
+
+    .indianText h3 {
+        font-size: 40px;
+    }
+
+    .indianText h2 {
+        font-size: 50px;
+    }
+
+    .indianImg img {
+        max-width: 350px;
+    }
+
+    .homeAdsContent {
+        height: 360px;
+    }
+
+
+}
+
+@media (min-width: 1280px) and (max-width: 1299.98px) {
+
+    .homeHeaderContent h1 {
+        font-size: 40px;
+    }
+
+    .homeHeaderContent h4 {
+        font-size: 30px;
+    }
+
+    .tagLine h2 {
+        font-size: 26px;
+    }
+
+    .homeAdsBg {
+        height: 360px;
+        margin-top: 4rem;
+    }
+
+    .homeAdsImg img {
+        max-width: 374px;
+    }
+
+    .homeAdsContent h4 {
+        font-size: 24px;
+    }
+
+    .homeAdsContent p {
+        font-size: 16px;
+    }
+
+    .title h2 {
+
+        font-size: 40px;
+    }
+
+    .indianBg {
+        height: 330px;
+    }
+
+    .indianText {
+        height: 330px;
+    }
+
+    .indianText h3 {
+        font-size: 40px;
+    }
+
+    .indianText h2 {
+        font-size: 50px;
+    }
+
+    .indianImg img {
+        max-width: 350px;
+    }
+
+
+}
+
+@media (min-width: 1300px) and (max-width: 1359.98px) {
+
+    .homeHeaderContent h1 {
+        font-size: 40px;
+    }
+
+    .homeHeaderContent h4 {
+        font-size: 30px;
+    }
+
+    .tagLine h2 {
+        font-size: 26px;
+    }
+
+    .homeAdsBg {
+        height: 360px;
+        margin-top: 4rem;
+    }
+
+    .homeAdsImg img {
+        max-width: 374px;
+    }
+
+    .homeAdsContent h4 {
+        font-size: 24px;
+    }
+
+    .homeAdsContent p {
+        font-size: 16px;
+    }
+
+    .title h2 {
+
+        font-size: 40px;
+    }
+
+    .indianBg {
+        height: 330px;
+    }
+
+    .indianText {
+        height: 330px;
+    }
+
+    .indianText h3 {
+        font-size: 40px;
+    }
+
+    .indianText h2 {
+        font-size: 50px;
+    }
+
+    .indianImg img {
+        max-width: 350px;
+    }
+
+
+}
+
+@media (min-width: 1360px) and (max-width: 1439.98px) {
+    .homeHeaderContent h1 {
+        font-size: 40px;
+    }
+
+    .homeHeaderContent h4 {
+        font-size: 30px;
+    }
+
+    .tagLine h2 {
+        font-size: 26px;
+    }
+
+    .homeAdsBg {
+        height: 360px;
+        margin-top: 4rem;
+    }
+
+    .homeAdsImg img {
+        max-width: 374px;
+    }
+
+    .homeAdsContent h4 {
+        font-size: 24px;
+    }
+
+    .homeAdsContent p {
+        font-size: 16px;
+    }
+
+    .title h2 {
+
+        font-size: 40px;
+    }
+
+    .indianBg {
+        height: 330px;
+    }
+
+    .indianText {
+        height: 330px;
+    }
+
+    .indianText h3 {
+        font-size: 40px;
+    }
+
+    .indianText h2 {
+        font-size: 50px;
+    }
+
+    .indianImg img {
+        max-width: 350px;
+    }
+
+    .homeAdsContent {
+        height: 360px;
+    }
+}
+
+@media (min-width: 1440px) and (max-width: 1536.98px) {
+    .tagLine h2 {
+        font-size: 34px;
+    }
+}
+
+@media (min-width: 1537px) and (max-width: 1920px) {}

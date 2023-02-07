@@ -1,0 +1,235 @@
+.topFooterContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footerDownload {
+    display: flex;
+}
+
+.topFooterContent {
+    margin: 3rem 0 5rem 0;
+}
+
+.topFooterContent h2 {
+    font-size: 50px;
+    margin-bottom: 2rem;
+    font-family: mediumfont;
+}
+
+.footerBg {
+    margin: 2rem 0 0rem 0;
+    padding-bottom: 2rem;
+    border-bottom: 3px solid #dedede;
+}
+
+
+.footerList h4 {
+    font-family: mediumfont;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.footerList ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footerList ul li {
+    font-size: 18px;
+    margin: 1rem 0;
+}
+
+.footerList ul li a {
+    color: var(--text);
+    transition: 0.3s ease-in-out;
+}
+
+.footerList ul li a:hover {
+    color: var(--secondary);
+    margin-left: 6px;
+}
+
+.bottomFooterBg {
+    padding: 2rem 0;
+}
+
+.bottomFooterContent ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottomFooterContent ul li {
+    font-size: 18px;
+}
+
+.bottomFooterContent ul li img {
+    margin-left: 1rem;
+}
+
+.footerLink a {
+    color: var(--dark);
+    margin: 0 1rem;
+}
+
+
+
+@media (min-width: 319.98px) and (max-width: 379.98px) {
+    .topFooterContent h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .footerDownload {
+        display: block;
+    }
+
+
+    .footerBg {
+        margin: 0;
+    }
+
+    .footerList h4 {
+        margin-top: 2rem;
+    }
+
+    .footerList ul li {
+        font-size: 14px;
+    }
+
+    .bottomFooterContent ul {
+        display: block;
+    }
+
+    .bottomFooterContent ul li {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .bottomFooterContent ul li:last-child {
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 380px) and (max-width: 424.98px) {
+    .topFooterContent h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .footerDownload {
+        justify-content: space-between;
+        width: 83%;
+    }
+
+    .footerBg {
+        margin: 0;
+    }
+
+    .footerList h4 {
+        margin-top: 2rem;
+    }
+
+    .footerList ul li {
+        font-size: 14px;
+    }
+
+    .bottomFooterContent ul {
+        display: block;
+    }
+
+    .bottomFooterContent ul li {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .bottomFooterContent ul li:last-child {
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 575.98px) {
+
+    .topFooterContent h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .footerDownload {
+        justify-content: space-between;
+        width: 83%;
+    }
+
+    .footerBg {
+        margin: 0;
+    }
+
+    .footerList h4 {
+        margin-top: 2rem;
+    }
+
+    .footerList ul li {
+        font-size: 14px;
+    }
+
+    .bottomFooterContent ul {
+        display: block;
+    }
+
+    .bottomFooterContent ul li {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .bottomFooterContent ul li:last-child {
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768.98px) {
+    .topFooterContent h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .footerBg {
+        margin: 0;
+    }
+
+    .footerList h4 {
+        margin-top: 2rem;
+    }
+
+    .footerList ul li {
+        font-size: 14px;
+    }
+
+    .bottomFooterContent ul li {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 991.98px) {}
+
+@media (min-width: 992px) and (max-width: 1023.98px) {}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {}
+
+@media (min-width: 1200px) and (max-width: 1279.98px) {}
+
+@media (min-width: 1280px) and (max-width: 1299.98px) {}
+
+@media (min-width: 1300px) and (max-width: 1359.98px) {}
+
+@media (min-width: 1360px) and (max-width: 1439.98px) {}
+
+@media (min-width: 1440px) and (max-width: 1536.98px) {}
+
+@media (min-width: 1537px) and (max-width: 1920px) {}
